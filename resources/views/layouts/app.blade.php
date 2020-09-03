@@ -30,7 +30,7 @@
 
     <body>
         <div class="area">
-            <nav class="navbar navbar-expand-md">  <!-- bg-primary -->
+            <nav class="navbar navbar-expand-md">
                 <div class="navbar-collapse collapse w-100 order-1 order-md-0 navbar-collapse">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
@@ -48,7 +48,7 @@
                     </ul>
                 </div>
                 <div class="mx-auto order-0">
-                    <a class="navbar-brand mx-auto" href="/dashboard">Note 'Em Down </a>
+                    <span class="navbar-brand mx-auto">Note 'Em Down </span>
                     <button class="navbar-toggler ml-auto custom-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -67,6 +67,7 @@
                 </div>
             </nav>
             <div class="content">
+                {{-- Flash Messages will be displayed on the screen inside this div --}}
                 <div class="alertHolder">
                     @if(Session::has('error_message'))
                         <div class="alert alert-danger" role="alert">
