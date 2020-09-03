@@ -2,9 +2,6 @@ html, body {
     background-color: #f5f6f7;
     color: #000000;
     font-family: 'Domine', serif;
-
-    /*font-family: Georgia, serif;*/
-    /*ltc-bodoni-175, serif;*/
     font-weight: 200;
     height: 100vh;
     margin: 0;
@@ -14,7 +11,7 @@ html, body {
 .navbar,
 .nav-item .dropdown-menu.show .dropdown-item:hover,
 .nav-item .dropdown-menu.show .dropdown-item:focus {
-    background-color:  #535353f2;
+    background-color:  #000000;
 }
 
 .nav-link {
@@ -29,8 +26,8 @@ html, body {
 }
 
 .nav-item .dropdown-menu {
-    background-color: #535353f2;
-    border-color: #535353f2; 
+    background-color: #000000;
+    border-color: #000000; 
     padding-left: 25px;
 
 }
@@ -98,54 +95,3 @@ div.btn-group.show div.dropdown-menu.show button.dropdown-item:focus {
     height: 40px;
 }
 /**************** ColorPicker Sizing End ****************/ 
-
-
-/*.flex-center {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}*/
-
-
-/*.top-right {
-    position: absolute;
-    right: 10px;
-    top: 18px;
-}*/
-
-/*.kanbanBoard{
-    padding:1em 1em;
-    border:0.16em solid #eaeaec;
-    box-sizing: border-box;
-}*/
-
-/*.blueBtn {
-    background-color:  #3950f9;
-    display:inline-block;
-    padding:0.3em 1.2em;
-    margin:0 0.1em 0.1em 0;
-    border:0.16em solid rgba(255,255,255,0);
-    border-radius:2em;
-    box-sizing: border-box;
-    text-decoration:none;
-    font-family:'Roboto',sans-serif;
-    font-weight:300;
-    color:#FFFFFF;
-    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
-    text-align:center;
-    transition: all 0.2s;
-}*/
-
-/*.title {
-    font-size: 84px;
-}*/
-
-/*.links > a {
-    color: #636b6f;
-    padding: 0 25px;
-    font-size: 13px;
-    font-weight: 600;
-    letter-spacing: .1rem;
-    text-decoration: none;
-    text-transform: uppercase;
-}*/
